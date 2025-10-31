@@ -7,7 +7,7 @@ const Hero = ({ translations, language }) => {
     <section className="hero">
       <div className="hero-content">
         <div className="hero-text">
-          <h1 className="hero-title">{translations.title}</h1>
+          <h1 className="hero-title" style={{color:"whitesmoke"}}>{translations.title}</h1>
           <p className="hero-description">{translations.description}</p>
           <div className="hero-actions">
             <Link to="/contact" className="cta-button">
